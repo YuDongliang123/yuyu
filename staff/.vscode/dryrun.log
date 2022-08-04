@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ubuntu/staff'
+gcc client*.c sqlite.c -o cli -l sqlite3
+gcc client*.c sqlite.c -o cli_2 -l sqlite3
+gcc server*.c sqlite.c -o ser -l sqlite3
+make: Leaving directory '/home/ubuntu/staff'
+ 
